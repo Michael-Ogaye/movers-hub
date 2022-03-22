@@ -34,7 +34,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <div class="container form-container p-4">
+            <div class="container form-container p-2">
               <form action="">
                 <div class="row d-flex g-3 fields m-2">
                   <div class="col forminput mx-3">
@@ -47,27 +47,34 @@
 
                 <div class="row d-flex g-3 fields m-2">
                   <div class="col forminput mx-3">
-                    <input type="text" name="name" id="name" placeholder="Moving From">
+                    <input type="text" name="moving-from" id="moving-from" placeholder="Moving From">
                   </div>
                   <div class="col forminput mx-3">
-                    <input type="tel" name="tel" id="tel" placeholder="Moving To">
+                    <input type="text" name="moving-to" id="moving-to" placeholder="Moving To">
                   </div>
                 </div>
 
                 <div class="row d-flex g-3 fields m-2 ">
                   <div class="col forminput mx-3">
-                    <input type="date" name="name" id="name" placeholder="Schedule Date">
+                    <input type="date" class="text-light opacity-75 " name="date" id="date" placeholder="Schedule Date">
                   </div>
                   <div class="col forminput mx-3">
-                    <input type="number" name="tel" id="tel" placeholder="No. of Rooms">
+                    <input type="number" name="rooms" id="rooms" placeholder="No. of Rooms">
                   </div>
+                </div>
+
+                <div class="row d-flex g-3 fields m-2 ">
+                  <div class="col forminput mx-3">
+                    <textarea name="message" id="message" cols=75" rows="6"
+                      placeholder="Additional Information"></textarea>
+                  </div>
+                </div>
+                <div class="atc m-4">
+                  <button type="button" class="btn btn-atc">Submit
+                    Request</button>
                 </div>
               </form>
             </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>

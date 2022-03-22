@@ -19,16 +19,23 @@ body {
   color: var(--fontColor);
 }
 
+.modal-title {
+ color: var(--orange);
+  font-size: 1.5rem;
+}
+
 .form-container {
   background-color: var(--light-navy-blue);
   height: auto;
   border-radius: 15px;
 }
+
+textarea,
 .fields input {
   border: none !important;
   outline: none;
   background: none;
-  font-size: 18px;
+  font-size: 1rem;
   padding: 10px;
 }
 
@@ -36,3 +43,24 @@ body {
  border-radius: 15px;
  box-shadow: inset 8px 8px 8px var(--dark-navy-blue), inset -8px -8px 8px var(--lighter-navy-blue);
 }
+
+::placeholder { 
+  color: var(--fontColor);
+  opacity: .75;
+}
+.btn-close {
+  background-color: var(--orange);
+}
+
+.btn-atc{
+  background-color: var(--orange);
+  color: var(--fontColor);
+  font-size: 18px;
+}
+
+.btn-atc:hover {
+  background-color: var(--light-navy-blue);
+  border: 2px solid var(--orange) !important;
+  color: var(--orange);
+}
+
