@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins&family=Smooch+Sans&display=swap');
+body {
+    background-color: #06183c;
+    color: #db7e53;
+    font-family:'Poppins', sans-serif;
+    
+}
+.heading {
+    text-align: center;
+}
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 50px
+}
+.card {
+    position: relative;
+    display: flex;
+    width: 350px;
+    flex-direction: row;
+    word-wrap: break-word;
+    border: 1px solid;
+    border-radius: 11px;
+
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+
+}
+.card .card-body {
+    padding: 1rem 1rem;
+
+}
+p {
+    margin-bottom: .5rem;
+    line-height: 1.5rem;
+}
