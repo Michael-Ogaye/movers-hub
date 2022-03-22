@@ -27,21 +27,39 @@
     <!-- Modal -->
     <div class="modal fade myModal" id="bookingModal" tabindex="-1" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
-      <div class="modal-dialog modal-md">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id=" exampleModalLabel">Fill Details</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <div class="container form-container p-3">
+            <div class="container form-container p-4">
               <form action="">
-                <div class="row">
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Your Name" aria-label="Name">
+                <div class="row d-flex g-3 fields m-2">
+                  <div class="col forminput mx-3">
+                    <input type="text" name="name" id="name" placeholder="Your Name">
                   </div>
-                  <div class="col">
-                    <input type="number" class="form-control" placeholder="Phone Number" aria-label="Phone Number">
+                  <div class="col forminput mx-3">
+                    <input type="tel" name="tel" id="tel" placeholder="Phone Number">
+                  </div>
+                </div>
+
+                <div class="row d-flex g-3 fields m-2">
+                  <div class="col forminput mx-3">
+                    <input type="text" name="name" id="name" placeholder="Moving From">
+                  </div>
+                  <div class="col forminput mx-3">
+                    <input type="tel" name="tel" id="tel" placeholder="Moving To">
+                  </div>
+                </div>
+
+                <div class="row d-flex g-3 fields m-2 ">
+                  <div class="col forminput mx-3">
+                    <input type="date" name="name" id="name" placeholder="Schedule Date">
+                  </div>
+                  <div class="col forminput mx-3">
+                    <input type="number" name="tel" id="tel" placeholder="No. of Rooms">
                   </div>
                 </div>
               </form>
