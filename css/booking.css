@@ -19,9 +19,11 @@ body {
   color: var(--fontColor);
 }
 
+
 .modal-title {
- color: var(--orange);
+  color: var(--orange);
   font-size: 1.5rem;
+  margin-left: 1rem;
 }
 
 .form-container {
