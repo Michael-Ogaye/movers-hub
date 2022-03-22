@@ -9,5 +9,13 @@ flex: 1;
 }
 .info{
     flex: 3;
+    background-color: navy;
+    color: white;
+    grid-template-columns: 1fr 1fr;
 
+
+}
+
+.qul{
+    
 }
