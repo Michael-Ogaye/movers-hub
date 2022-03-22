@@ -45,7 +45,6 @@ section {
   top: 0;
   left: 0;
 }
-
 .carousel {
   position: absolute;
   height: 100%;
@@ -54,4 +53,21 @@ section {
   right: 0;
   background-color: #fa751f;
   border-radius: 2rem;
+}
+form {
+  max-width: 260px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  flex-direction: column;
+}
+.heading h2 {
+  margin-top: -9px;
+  letter-spacing: -0.5px;
+}
+.heading p {
+  display: inline;
+  color: #fa751f;
+  font-size: 0.75rem;
+  font-weight: 400;
 }
