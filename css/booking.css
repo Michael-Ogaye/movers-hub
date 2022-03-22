@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
+:root {
+  --dark-navy-blue:#06183c;
+  --light-navy-blue: #142445;
+  --lighter-navy-blue: #2c3b5a;
+  --orange: #fe6600;
+  --fontColor: #e7eff5;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+.myModal {
+
 }
