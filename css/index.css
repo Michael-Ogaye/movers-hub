@@ -25,19 +25,33 @@ body {
   border-radius: 3.3rem;
   box-shadow: 10px 10px 5px 0px rgba(250, 117, 31, 1);
 }
-.form {
+section {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.innerBox {
+  position: absolute;
+  width: calc(100% - 4.1rem);
+  height: calc(100% - 4.1rem);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.formBox {
   position: absolute;
   height: 100%;
   width: 45%;
   top: 0;
   left: 0;
 }
+
 .carousel {
   position: absolute;
   height: 100%;
   width: 55%;
   top: 0;
   right: 0;
-  background-color: #b97349;
+  background-color: #fa751f;
   border-radius: 2rem;
 }
