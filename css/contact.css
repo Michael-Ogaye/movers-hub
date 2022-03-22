@@ -63,3 +63,12 @@ p {
 button {
     margin-left: 5%;
 }
+.address {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+.navbar {
+    float: right;
+}
