@@ -27,14 +27,25 @@
     <!-- Modal -->
     <div class="modal fade myModal" id="bookingModal" tabindex="-1" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
-      <div class="modal-dialog modal-lg text-center">
+      <div class="modal-dialog modal-md">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id=" exampleModalLabel">Fill Details</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            ...
+            <div class="container form-container p-3">
+              <form action="">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Your Name" aria-label="Name">
+                  </div>
+                  <div class="col">
+                    <input type="number" class="form-control" placeholder="Phone Number" aria-label="Phone Number">
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

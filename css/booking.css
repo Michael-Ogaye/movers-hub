@@ -15,7 +15,12 @@ body {
 .modal-header,
 .modal-body,
 .modal-footer {
-  background-color: #06183c; 
-  color: #e7eff5;
-  justify-content: center;
+  background-color: var(--dark-navy-blue);
+  color: var(--fontColor);
+}
+
+.form-container {
+  background-color: var(--light-navy-blue);
+  height: 60vh;
+  border-radius: 30px;
 }
