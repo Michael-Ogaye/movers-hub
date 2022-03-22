@@ -12,6 +12,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.myModal {
-
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: #06183c; 
+  color: #e7eff5;
+  justify-content: center;
 }
