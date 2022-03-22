@@ -6,6 +6,7 @@
 
 .face{
 flex: 1;
+border-bottom: 1px solid #2C3B5A;
 }
 .info{
     flex: 3;
@@ -65,4 +66,7 @@ body{
 small{
     margin-left: 1vw;
     color: grey ;
+}
+section{
+    
 }
