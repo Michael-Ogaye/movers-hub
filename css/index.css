@@ -16,6 +16,10 @@ body {
   padding: 2rem;
   overflow: hidden;
 }
+.sign-in-form {
+  display: none;
+}
+
 .box {
   position: relative;
   width: 100%;
@@ -44,6 +48,9 @@ section {
   width: 45%;
   top: 0;
   left: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  transition: 0.8s ease-in-out;
 }
 .carousel {
   position: absolute;
