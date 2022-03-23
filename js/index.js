@@ -1,4 +1,4 @@
-
+/*
 const inputs = document.querySelectorAll('.field');
 const toggle_btn = document.querySelectorAll('.toggle');
 const section = document.querySelectorAll('section')
@@ -18,6 +18,7 @@ toggle_btn.forEach(btn => {
         section.classList.toggle('.logIn');
     });
 });
+*/
 
 
 
@@ -40,13 +41,12 @@ toggle_btn.forEach(btn => {
 
 
 
-
-/*$document.ready(function (){
-    $('a').click(function(){
-        $('#move').toggle();
+$(document).ready(function (){
+    $('.toggle').click(function(){
+        $('#move').show();
     })
 })
-*/
+
 
 
 

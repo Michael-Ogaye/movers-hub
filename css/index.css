@@ -49,16 +49,7 @@ section {
   grid-template-rows: 1fr;
   transition: 0.8s ease-in-out;
 }
-.carousel {
-  position: absolute;
-  height: 100%;
-  width: 55%;
-  top: 0;
-  right: 0;
-  background-color: #fa751f;
-  border-radius: 2rem;
-  transition: 0.8s ease-in-out;
-}
+
 form {
   max-width: 260px;
   width: 100%;
@@ -123,6 +114,26 @@ form {
 }
 .text a:hover {
   color: #fa751f;
+}
+.carousel {
+  position: absolute;
+  height: 100%;
+  width: 55%;
+  top: 0;
+  right: 0;
+  background-color: #fa751f;
+  border-radius: 2rem;
+  transition: 0.8s ease-in-out;
+}
+img {
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  opacity: 0;
+}
+.pictures {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 form.sign-in-form {
   display: none;
