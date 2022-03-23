@@ -35,13 +35,14 @@
           </div>
           <div class="modal-body">
             <div class="container form-container p-2">
-              <form id="contactForm">
+              <form id="contactForm" novalidate>
                 <div class="row d-flex g-3 fields m-2">
                   <div class="col forminput mx-3">
                     <input type="text" name="pName" class="w-100" id="name" placeholder="Your Name" required>
                   </div>
                   <div class="col forminput mx-3">
-                    <input type="tel" name="telNo" class="w-100" id="tel" placeholder="Phone Number" required>
+                    <input type="tel" name="telNo" class="w-100" id="tel" placeholder="Phone Number" maxlength="10"
+                      required>
                   </div>
                 </div>
 
