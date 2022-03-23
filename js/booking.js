@@ -15,19 +15,9 @@ function ContactMover(
   this.date = date;
   this.houseSize = houseSize;
   this.message = message;
-};
+}
 
-ContactMover.prototype.trackBooking = function () {
-  return (
-    this.name +
-    this.number +
-    this.movingFrom +
-    this.movingTo +
-    this.date +
-    this.houseSize +
-    this.message
-  );
-};
+ContactMover.prototype.trackBooking = function () {};
 
 //User Interface Logic
 $(document).ready(function () {
@@ -54,7 +44,19 @@ $(document).ready(function () {
       additionalInfo
     );
 
-    console.log(bookMover.trackBooking());
+    var tbodyEl = $("tbody");
+    tbodyEl.innerHTML += `
+      <tr> 
+        <td>${bookMover.clientName}</td>
+        <td>${bookMover.pNumber}</td>
+        <td>${bookMover.currentLocation}</td>
+        <td>${bookMover.destination}</td>
+        <td>${bookMover.movingDate}</td>
+        <td>${bookMover.numberOfRooms}</td>
+        <td>${bookMover.additionalInfo}</td>
+        <td><button class="deleteBtn">Delete</button></td>
+      </tr>
+    `;
 
   });
 
