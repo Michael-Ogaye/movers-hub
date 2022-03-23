@@ -154,6 +154,8 @@ section.logIn form.sign-up-form {
 }
 img {
   width: 100%;
+
+  border-radius: 1rem;
   grid-column: 1/2;
   grid-row: 1/2;
 }
@@ -181,8 +183,9 @@ img.show {
   margin: 0 0.25rem;
   border-radius: 0.25rem;
   cursor: pointer;
+  transition: 0.3s;
 }
-.bullets span.active{
+.bullets span.active {
   width: 1.1rem;
   background-color: #06183c;
   border-radius: 0.5rem;

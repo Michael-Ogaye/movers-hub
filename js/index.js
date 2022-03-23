@@ -20,6 +20,17 @@ toggle_btn.forEach((btn) => {
   });
 });
 
+function moveSlider(){
+    let index = this.dataset.value;
+    
+    
+    bullets.forEach(bull => bull.classList.remove('active'));
+    this.classList.add('active');
+}
+
+bullets.forEach(bullet =>{
+    bullet.addEventListener('click', moveSlider);
+})
 
 
 
