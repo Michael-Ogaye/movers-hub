@@ -12,7 +12,8 @@ body {
 .row {
     width: 100%;
     margin: 0px auto;
-    margin-top: 50px
+    margin-top: 50px;
+    margin-left: 3%;
 }
 .card {
     position: relative;
@@ -24,7 +25,7 @@ body {
     border-radius: 11px;
     float: left;
     width: 18rem;
-    
+    margin-left: 1%;
 }
 
 .card .card-body {
@@ -34,6 +35,9 @@ body {
 p {
     margin-bottom: .5rem;
     line-height: 1.5rem;
+}
+#feedback {
+    padding-top: 110px;
 }
 .head{
     text-align: center;
@@ -53,10 +57,10 @@ p {
 #row {
     max-width: 100%;
     margin-left: 5%;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 .form-group {
-    max-width: 100%;
+    max-width: 50%;
     margin-left: 5%;
     margin-right: 10%;
     padding-top: 0%;
@@ -73,3 +77,4 @@ footer {
 .navbar {
     float: right;
 }
+
