@@ -175,22 +175,6 @@ img.show {
   margin-bottom: 1rem;
   overflow: hidden;
 }
-
-.bullets span {
-  width: 0.5rem;
-  height: 0.5rem;
-  background-color: #ffffff;
-  margin: 0 0.25rem;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.bullets span.active {
-  width: 1.1rem;
-  background-color: #06183c;
-  border-radius: 0.5rem;
-}
-
 .group p {
   line-height: 2.5rem;
   font-size: 1.6rem;
