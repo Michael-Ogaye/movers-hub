@@ -46,6 +46,7 @@ textarea,
   box-shadow: inset 8px 8px 8px var(--dark-navy-blue), inset -8px -8px 8px var(--lighter-navy-blue);
 }
 
+textarea,
 input {
   color: var(--fontColor);
 }
