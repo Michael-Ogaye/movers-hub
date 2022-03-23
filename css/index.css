@@ -16,13 +16,7 @@ body {
   padding: 2rem;
   overflow: hidden;
 }
-.sign-in-form {
-  display: none;
-}
-.sign-up-form {
-  opacity: 2;
-  pointer-events: none;
-}
+
 .box {
   position: relative;
   width: 100%;
@@ -63,6 +57,7 @@ section {
   right: 0;
   background-color: #fa751f;
   border-radius: 2rem;
+  transition: 0.8s ease-in-out;
 }
 form {
   max-width: 260px;
@@ -72,6 +67,7 @@ form {
   flex-direction: column;
   grid-column: 1/2;
   grid-row: 1/2;
+  transition-delay: 0.02s 0.4s;
 }
 .heading h2 {
   margin-top: -9px;
@@ -127,4 +123,29 @@ form {
 }
 .text a:hover {
   color: #fa751f;
+}
+form.sign-in-form {
+  display: none;
+}
+form.sign-up-form {
+  opacity: 0;
+  pointer-events: none;
+}
+section.logIn .formBox {
+  left: 55%;
+}
+section.logIn .carousel {
+  left: 0;
+}
+section.logIn .carousel section.logIn {
+  opacity: 0;
+  pointer-events: none;
+}
+section.logIn form.sign-in-form {
+  opacity: 0;
+  pointer-events: none;
+}
+section.logIn form.sign-up-form {
+  opacity: 1;
+  pointer-events: all;
 }

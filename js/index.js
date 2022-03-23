@@ -1,8 +1,9 @@
-const input = document.querySelectorAll('.field');
-const toggle = document.querySelectorAll('.toggle');
+
+const inputs = document.querySelectorAll('.field');
+const toggle_btn = document.querySelectorAll('.toggle');
 const section = document.querySelectorAll('section')
 
-input.forEach(inp => {
+inputs.forEach(inp => {
     inp.addEventListener('focus', () =>{
         inp.classList.add('active')
     });
@@ -12,8 +13,45 @@ input.forEach(inp => {
     });
 });
 
-toggle.forEach(btn => {
+toggle_btn.forEach(btn => {
     btn.addEventListener('click', () => {
-        section.classList.toggle('sign-up-form');
+        section.classList.toggle('.logIn');
     });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*$document.ready(function (){
+    $('a').click(function(){
+        $('#move').toggle();
+    })
+})
+*/
+
+
+
+
+
+
+
+
