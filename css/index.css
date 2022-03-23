@@ -19,7 +19,10 @@ body {
 .sign-in-form {
   display: none;
 }
-
+.sign-up-form {
+  opacity: 2;
+  pointer-events: none;
+}
 .box {
   position: relative;
   width: 100%;
@@ -67,6 +70,8 @@ form {
   margin: 0 auto;
   height: 100%;
   flex-direction: column;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 .heading h2 {
   margin-top: -9px;
