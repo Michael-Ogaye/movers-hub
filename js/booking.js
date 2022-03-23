@@ -6,12 +6,18 @@ function ContactMover(name, number, movingFrom, movingTo, date, houseSize, messa
   this.date = date;
   this.houseSize = houseSize;
   this.message = message;
-}
+};
 
 ContactMover.prototype.trackBooking = function {
   return this.name + this.number + this.movingFrom + this.movingTo + this.date + this.houseSize + this.message;
-}
+};
 
 $(document).ready(function () {
+  $("#submitBtn").submit(function (event) {
+    event.preventDefault();
+
+
+  });
+
 
 })

@@ -38,29 +38,30 @@
               <form action="">
                 <div class="row d-flex g-3 fields m-2">
                   <div class="col forminput mx-3">
-                    <input type="text" name="name" class="w-100" id="name" placeholder="Your Name">
+                    <input type="text" name="name" class="w-100" id="name" placeholder="Your Name" required>
                   </div>
                   <div class="col forminput mx-3">
-                    <input type="tel" name="tel" class="w-100" id="tel" placeholder="Phone Number">
+                    <input type="tel" name="tel" class="w-100" id="tel" placeholder="Phone Number" required>
                   </div>
                 </div>
 
                 <div class="row d-flex g-3 fields m-2">
                   <div class="col forminput mx-3">
-                    <input type="text" name="moving-from" class="w-100" id="moving-from" placeholder="Moving From">
+                    <input type="text" name="moving-from" class="w-100" id="moving-from" placeholder="Moving From"
+                      required>
                   </div>
                   <div class="col forminput mx-3">
-                    <input type="text" name="moving-to" class="w-100" id="moving-to" placeholder="Moving To">
+                    <input type="text" name="moving-to" class="w-100" id="moving-to" placeholder="Moving To" required>
                   </div>
                 </div>
 
                 <div class="row d-flex g-3 fields m-2 ">
                   <div class="col forminput mx-3">
                     <input type="date" class="text-light opacity-75 w-100" name="date" id="date-picker"
-                      placeholder="Schedule Date">
+                      placeholder="Schedule Date" required>
                   </div>
                   <div class="col forminput mx-3">
-                    <input type="number" class="w-100" name="rooms" id="rooms" placeholder="House Size">
+                    <input type="number" class="w-100" name="rooms" id="rooms" placeholder="House Size" required>
                   </div>
                 </div>
 
@@ -71,7 +72,7 @@
                   </div>
                 </div>
                 <div class="atc m-4">
-                  <button type="button" class="btn btn-atc">Submit
+                  <button type="button" id="submitBtn" class="btn btn-atc">Submit
                     Request</button>
                 </div>
               </form>
