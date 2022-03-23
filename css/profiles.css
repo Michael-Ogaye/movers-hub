@@ -6,7 +6,7 @@
 
 .face{
 flex: 1;
-border-bottom: 1px solid #2C3B5A;
+
 }
 .info{
     flex: 3;
@@ -68,5 +68,12 @@ small{
     color: grey ;
 }
 section{
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    
+}
+nav.navbar{
+    background-color: #2C3B5A;
+    
     
 }
