@@ -9,8 +9,8 @@ body {
     text-align: center;
     padding-top: 5%;
 }
-.items {
-    width: 90%;
+.row {
+    width: 100%;
     margin: 0px auto;
     margin-top: 50px
 }
@@ -23,6 +23,7 @@ body {
     border: 1px solid;
     border-radius: 11px;
     float: left;
+    width: 18rem;
     
 }
 
