@@ -13,17 +13,19 @@ ContactMover.prototype.trackBooking = function () {
   return this.name + this.number + this.movingFrom + this.movingTo + this.date + this.houseSize + this.message;
 };
 
-
-
-
 //User Interface Logic
 $(document).ready(function () {
-  // $("form#contactForm").submit(function (event) {
-  //   event.preventDefault();
+  $("form#contactForm").submit(function (event) {
+    event.preventDefault();
+    var clientName = $("#name").val();
+    var pNumber = $("#tel").val();
+    var currentLocation = $("#moving-from").val();
+    var destination = $("#moving-to").val();
+    var movingDate = $("#date-picker").val();
+    var numberOfRooms = $("#rooms").val();
+    var additionalInfo = $("#message").val();
 
-
-
-  // });
+  });
 
   // Disable previous dates
   var today = new Date();
