@@ -123,17 +123,9 @@ form {
   right: 0;
   background-color: #fa751f;
   border-radius: 2rem;
+  grid-template-rows: auto 1fr;
+  padding-bottom: 2rem;
   transition: 0.8s ease-in-out;
-}
-img {
-  width: 100%;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  opacity: 0;
-}
-.pictures {
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
 }
 form.sign-in-form {
   display: none;
@@ -159,4 +151,48 @@ section.logIn form.sign-in-form {
 section.logIn form.sign-up-form {
   opacity: 1;
   pointer-events: all;
+}
+img {
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.pictures {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+img.show {
+  opacity: 1;
+}
+.slider {
+  align-items: center;
+  flex-direction: column;
+}
+.wrap {
+  max-height: 2.5rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.bullets span {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #ffffff;
+  margin: 0 0.25rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.bullets span.active{
+  width: 1.1rem;
+  background-color: #06183c;
+  border-radius: 0.5rem;
+}
+
+.group p {
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+  color: #06183c;
+}
+.group {
+  transform: translateY(0);
 }
