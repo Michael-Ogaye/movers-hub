@@ -11,10 +11,9 @@
 }
 
 body{
-    /* background-image: url('../assets/ogayes/images/lorry.jpg'); */
-    /* background-color: purple; */
+    
     background: rgb(250, 117, 31);
-  background: linear-gradient(
+    background: linear-gradient(
     90deg,
     rgba(250, 117, 31, 1) 10%,
     rgba(6, 24, 60, 1) 42%
