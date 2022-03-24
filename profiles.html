@@ -7,6 +7,7 @@
     <title>Profiles</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/booking.js"></script>
     <script src="js/profile.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -38,10 +39,10 @@
                       <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
                     </li>.
                     <li class="nav-item">
-                      <a class="nav-link text-light" href="booking.html">Bookings</a>
+                      <a class="nav-link text-light" href="tracking.html">Tracking</a>
                     </li>.
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="booking.html">Profiles</a>
+                        <a class="nav-link text-light" href="contact.html">Contacts</a>
                       </li>
             
                   </ul>
@@ -89,7 +90,7 @@
                         <i class="fa-regular fa-star-half"></i>
                     </div>
 
-                    <div class="text-center br"><button class="btn  text-center">Book</button></div>
+                    <div class="text-center br"><button class="btn  text-center" data-bs-toggle="modal" data-bs-target="#bookingModal">Book</button></div>
 
                 </div>
 
@@ -153,7 +154,7 @@
                         <i class="fa-regular fa-star-half"></i>
                     </div>
 
-                    <div class="text-center br"><button class="btn btn-primar text-center">Book</button></div>
+                    <div class="text-center br"><button class="btn btn-primar text-center"data-bs-toggle="modal" data-bs-target="#bookingModal">Book</button></div>
 
                 </div>
 
@@ -219,7 +220,7 @@
                         <i class="fa-regular fa-star-half"></i>
                     </div>
 
-                    <div class="text-center br"><button class="btn btn-primar text-center">Book</button></div>
+                    <div class="text-center br"><button class="btn btn-primar text-center"data-bs-toggle="modal" data-bs-target="#bookingModal">Book</button></div>
 
                 </div>
 
@@ -283,7 +284,7 @@
                         <i class="fa-regular fa-star-half"></i>
                     </div>
 
-                    <div class="text-center br"><button class="btn btn-primar text-center">Book</button></div>
+                    <div class="text-center br"><button class="btn btn-primar text-center" data-bs-toggle="modal" data-bs-target="#bookingModal">Book</button></div>
 
                 </div>
 
@@ -319,6 +320,68 @@
             </div>
 
         </section>
+
+
+
+
+        <div class="modal fade myModal" id="bookingModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h5 class="modal-title" id=" exampleModalLabel">Get in Touch</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container form-container p-2">
+              <form id="contactForm">
+                <div class="row d-flex g-3 fields m-2">
+                  <div class="col forminput mx-3">
+                    <input type="text" name="pName" class="w-100" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col forminput mx-3">
+                    <input type="tel" name="telNo" class="w-100" id="tel" placeholder="Phone Number" maxlength="10"
+                      required>
+                  </div>
+                </div>
+
+                <div class="row d-flex g-3 fields m-2">
+                  <div class="col forminput mx-3">
+                    <input type="text" name="movingfrom" class="w-100" id="moving-from" placeholder="Moving From"
+                      required>
+                  </div>
+                  <div class="col forminput mx-3">
+                    <input type="text" name="movingto" class="w-100" id="moving-to" placeholder="Moving To" required>
+                  </div>
+                </div>
+
+                <div class="row d-flex g-3 fields m-2 ">
+                  <div class="col forminput mx-3">
+                    <input type="date" class="text-light opacity-75 w-100" name="date" id="date-picker"
+                      placeholder="Schedule Date" required>
+                  </div>
+                  <div class="col forminput mx-3">
+                    <input type="number" class="w-100" name="NoOfRooms" id="rooms" placeholder="House Size" min="1"
+                      required>
+                  </div>
+                </div>
+
+                <div class="row d-flex g-3 fields m-2 ">
+                  <div class="col forminput mx-3">
+                    <textarea name="messages" id="message" cols=70" rows="6"
+                      placeholder="Additional Information"></textarea>
+                  </div>
+                </div>
+                <div class="atc m-4">
+                  <button type="button" id="submitBtn" class="btn btn-atc">Submit
+                    Request</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
         
     </main>

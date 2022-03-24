@@ -111,6 +111,86 @@ nav.navbar{
     height: 10.5vw;
 }
 
+/* modal styles */
+:root {
+    --dark-navy-blue: #06183c;
+    --light-navy-blue: #142445;
+    --lighter-navy-blue: #2c3b5a;
+    --orange: #fe6600;
+    --fontColor: #e7eff5;
+  }
+  
+  
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    background-color: var(--dark-navy-blue);
+    color: var(--fontColor);
+  }
+  
+  
+  .modal-title {
+    color: var(--orange);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  .form-container {
+    background-color: var(--light-navy-blue);
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  textarea,
+  .fields input {
+    border: none !important;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  .forminput {
+    border-radius: 15px;
+    box-shadow: inset 8px 8px 8px var(--dark-navy-blue), inset -8px -8px 8px var(--lighter-navy-blue);
+  }
+  
+  textarea,
+  input {
+    color: var(--fontColor);
+  }
+  
+  ::placeholder {
+    color: var(--fontColor);
+    opacity: .75;
+  }
+  
+  .btn-close {
+    background-color: var(--orange);
+  }
+  
+  .btn-atc {
+    background-color: var(--orange);
+    color: var(--fontColor);
+    font-size: 18px;
+  }
+  
+  .btn-atc:hover {
+    background-color: var(--light-navy-blue);
+    border: 2px solid var(--orange) !important;
+    color: var(--orange);
+  }
+  
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:1300px){
 .info{
     grid-template-columns: 1fr;

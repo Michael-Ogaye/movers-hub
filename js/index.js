@@ -19,6 +19,12 @@ toggle_btn.forEach((btn) => {
   });
 });
 
+// directing user to diffrent page
+let signBtns= $('.signBtn');
+signBtns.click(function(){
+  window.location.href='profiles.html'
+})
+
 
 
 

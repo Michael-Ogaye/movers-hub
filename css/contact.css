@@ -5,11 +5,33 @@ body {
     font-family:'Poppins', sans-serif;
     
 }
-.heading {
+
+
+#uv{
+    width: 12vw;
+    height: 7vw;
     text-align: center;
-    padding-top: 10%;
+    margin-right: 8%;
+
 }
-.heading h3 {
+.navbar-brand {
+    text-align: center;
+}
+
+nav.navbar{
+    background-color: #06183c;
+     
+}
+#heading {
+    text-align: center;
+    padding-top: 2%;
+}
+.address {
+    padding-top: 10%;
+    padding-bottom: 0%;
+    text-align: center;
+}
+#heading h3 {
     font-style: italic;
 }
 .navbar {
@@ -51,10 +73,14 @@ p {
 #head{
     text-align: center;
 }
-.contact {
-    padding-top: 5%;
-    padding-bottom: 10%;
+#feedback {
+    padding-top: 2%;
+}
+#contact {
+    padding-top: 3%;
+    padding-bottom: 5%;
     color: #db7e53;
+    margin-left: 10%;
 }
 .form-control {
     position: center;
@@ -63,13 +89,13 @@ p {
 #contact ::placeholder {
     color: #db7e53;
 }
-#row {
+
+.col-sm-4 {
     max-width: 100%;
     margin-left: 5%;
-    margin-right: 5%;
 }
 .form-group {
-    max-width: 50%;
+    max-width: 100%;
     margin-left: 5%;
     margin-right: 10%;
     padding-top: 0%;

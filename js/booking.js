@@ -17,8 +17,6 @@ function ContactMover(
   this.message = message;
 }
 
-ContactMover.prototype.trackBooking = function () {};
-
 //User Interface Logic
 $(document).ready(function () {
   $("#submitBtn").click(function (event) {
@@ -44,19 +42,28 @@ $(document).ready(function () {
       additionalInfo
     );
 
-    var tbodyEl = $("tbody");
-    tbodyEl.innerHTML += `
-      <tr> 
-        <td>${bookMover.clientName}</td>
-        <td>${bookMover.pNumber}</td>
-        <td>${bookMover.currentLocation}</td>
-        <td>${bookMover.destination}</td>
-        <td>${bookMover.movingDate}</td>
-        <td>${bookMover.numberOfRooms}</td>
-        <td>${bookMover.additionalInfo}</td>
-        <td><button class="deleteBtn">Delete</button></td>
-      </tr>
-    `;
+    localStorage.setItem("ls_clientName", clientName);
+    localStorage.setItem("ls_pNumber", pNumber);
+    localStorage.setItem("ls_currentLocation", currentLocation);
+    localStorage.setItem("ls_destination", destination);
+    localStorage.setItem("ls_movingDate", movingDate);
+    localStorage.setItem("ls_numberOfRooms", numberOfRooms);
+    localStorage.setItem("ls_additionalInfo", additionalInfo);
+
+    window.location.href = "tracking.html";
+
+    //var tbodyEl = $("tbody");
+    //tbodyEl.innerHTML += `
+    //  <tr> 
+    //    <td>${bookMover.clientName}</td>
+    //    <td>${bookMover.pNumber}</td>
+    //    <td>${bookMover.currentLocation}</td>
+    //    <td>${bookMover.destination}</td>
+    //    <td>${bookMover.movingDate}</td>
+    //    <td>${bookMover.numberOfRooms}</td>
+    //    <td>${bookMover.additionalInfo}</td>
+    //  </tr>
+    //`;
 
   });
 
