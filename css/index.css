@@ -14,6 +14,7 @@ body {
 #uv {
   width: 8vw;
   height: 5vw;
+  margin-right: .7rem;
 }
 .box {
   position: relative;
@@ -49,8 +50,7 @@ section {
 }
 
 form {
-  max-width: 260px;
-  width: 100%;
+  max-width: 280px;
   margin: 0 auto;
   height: 100%;
   flex-direction: column;
@@ -106,6 +106,10 @@ form {
 }
 .signBtn:hover {
   background-color: #06183c;
+}
+.text {
+  color: #000;
+  opacity: .8;
 }
 .text a {
   color: #ffffff;
