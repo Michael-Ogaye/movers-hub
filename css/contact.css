@@ -5,11 +5,28 @@ body {
     font-family:'Poppins', sans-serif;
     
 }
+
 #head {
     text-align: center;
     margin-left: 15%;
 }
 #heading {
+
+
+#uv{
+    width: 8vw;
+    height: 5vw;
+    
+}
+
+
+nav.navbar{
+    background-color: #06183c;
+    
+    
+}
+.heading {
+
     text-align: center;
     padding-top: 10%;
 }
