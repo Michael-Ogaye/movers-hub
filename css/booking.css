@@ -12,6 +12,16 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.navbar {
+  background-color: var(--dark-navy-blue);
+}
+
+#uv{
+  width: 8vw;
+  height: 5vw;
+  margin-right: .8rem;
+}
+
 .modal-header,
 .modal-body,
 .modal-footer {
