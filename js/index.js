@@ -1,7 +1,6 @@
 const inputs = document.querySelectorAll(".input");
 const toggle_btn = document.querySelectorAll(".toggle");
 const section = document.querySelector("section");
-const bullets = document.querySelectorAll(".bullets span");
 const images = document.querySelectorAll(".image");
 
 inputs.forEach((inp) => {
