@@ -3,16 +3,14 @@ body {
     background-color: #06183c;
     color: #db7e53;
     font-family:'Poppins', sans-serif;
-    
+    overflow-x: hidden;
 }
 
 
 #uv{
-    width: 12vw;
-    height: 7vw;
-    text-align: center;
-    margin-right: 8%;
-
+    width: 8vw;
+    height: 5vw;
+    
 }
 .navbar-brand {
     text-align: center;
@@ -27,23 +25,15 @@ nav.navbar{
     padding-top: 2%;
 }
 .address {
-    padding-top: 10%;
     padding-bottom: 0%;
     text-align: center;
 }
 #heading h3 {
     font-style: italic;
 }
-.navbar {
-    margin-top: 2%;
-    margin-right: 3%;
-}
+
 .row {
     width: 100%;
-    margin: 0px auto;
-    margin-top: 50px;
-    margin-bottom: 5%;
-    margin-left: 5%;
 }
 .card {
     position: relative;
@@ -111,8 +101,6 @@ footer {
     text-align: center;
     font-size: smaller;
 }
-.navbar {
-    float: right;
-}
+
 
 
