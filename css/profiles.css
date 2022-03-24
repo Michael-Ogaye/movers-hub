@@ -36,7 +36,7 @@ flex: 1;
 
 }
 
-.navbar-brand img{
+#uv{
     width: 8vw;
     height: 5vw;
     
@@ -107,8 +107,8 @@ nav.navbar{
     
 }
 .ct{
-    width: 13vw;
-    height: 13vw;
+    width: 10vw;
+    height: 10.5vw;
 }
 
 @media only screen and (max-width:1300px){
