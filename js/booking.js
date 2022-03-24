@@ -21,6 +21,8 @@ ContactMover.prototype.trackBooking = function () {};
 
 //User Interface Logic
 $(document).ready(function () {
+  
+
   $("#submitBtn").click(function (event) {
     event.preventDefault();
 
@@ -33,6 +35,8 @@ $(document).ready(function () {
     var numberOfRooms = $("#rooms").val();
     var additionalInfo = $("#message").val();
 
+    
+
     //Creates an object instance
     var bookMover = new ContactMover(
       clientName,
@@ -44,7 +48,8 @@ $(document).ready(function () {
       additionalInfo
     );
 
-    var tbodyEl = $("tbody");
+    let tbodyEl = document.querySelector("#myTable tbody");
+    
     tbodyEl.innerHTML += `
       <tr> 
         <td>${bookMover.clientName}</td>

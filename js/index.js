@@ -20,9 +20,10 @@ toggle_btn.forEach((btn) => {
 });
 
 // directing user to diffrent page
-let signBtns= $('.signBtn');
-signBtns.click(function(){
-  window.location.href='profiles.html'
+let signBtns= $('input.signBtn');
+signBtns.click(function(e){
+  e.preventDefault();
+  window.location.href ='profiles.html'
 })
 
 
