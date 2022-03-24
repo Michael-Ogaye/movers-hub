@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins&family=Smooch+Sans&display=swap');
+body {
+    background-color: #06183c;
+    color: #db7e53;
+    font-family:'Poppins', sans-serif;
+    
+}
+
+#uv{
+    width: 8vw;
+    height: 5vw;
+    
+}
+
+
+nav.navbar{
+    background-color: #06183c;
+    
+    
+}
+.heading {
+    text-align: center;
+    padding-top: 10%;
+}
+.heading h3 {
+    font-style: italic;
+}
+.navbar {
+    margin-top: 2%;
+    margin-right: 3%;
+}
+.row {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+.card {
+    position: relative;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    word-wrap: break-word;
+    border: 1px solid;
+    border-radius: 11px;
+    float: left;
+    width: 18rem;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.card .card-body {
+    padding: 1rem 1rem;
+
+}
+.comment {
+    display: none;
+}
+p {
+    margin-bottom: .5rem;
+    line-height: 1.5rem;
+}
+#head{
+    text-align: center;
+}
+.contact {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    color: #db7e53;
+}
+.form-control {
+    position: center;
+    background: transparent;
+}
+#contact ::placeholder {
+    color: #db7e53;
+}
+#row {
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.form-group {
+    max-width: 50%;
+    margin-left: 5%;
+    margin-right: 10%;
+    padding-top: 0%;
+}
+button {
+    margin-left: 5%;
+}
+.address {
+    text-align: center;
+    font-size: smaller;
+}
+footer {
+    text-align: center;
+    font-size: smaller;
+}
+.navbar {
+    float: right;
+}
+
+
