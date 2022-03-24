@@ -16,14 +16,10 @@ body {
   padding: 2rem;
   overflow: hidden;
 }
-
-
-#uv{
+#uv {
   width: 8vw;
   height: 5vw;
-  
 }
-
 .box {
   position: relative;
   width: 100%;
@@ -184,7 +180,7 @@ img.show {
 }
 .group p {
   line-height: 2.5rem;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: #06183c;
 }
 .group {
