@@ -19,8 +19,6 @@ function ContactMover(
 
 //User Interface Logic
 $(document).ready(function () {
-  
-
   $("#submitBtn").click(function (event) {
     event.preventDefault();
 
@@ -31,9 +29,7 @@ $(document).ready(function () {
     var destination = $("#moving-to").val();
     var movingDate = $("#date-picker").val();
     var numberOfRooms = $("#rooms").val();
-    var additionalInfo = $("#message").val();
-
-    
+    var additionalInfo = $("#message").val()
 
     //Creates an object instance
     var bookMover = new ContactMover(
@@ -46,22 +42,6 @@ $(document).ready(function () {
       additionalInfo
     );
 
-
-    let tbodyEl = document.querySelector("#myTable tbody");
-    
-    tbodyEl.innerHTML += `
-      <tr> 
-        <td>${bookMover.clientName}</td>
-        <td>${bookMover.pNumber}</td>
-        <td>${bookMover.currentLocation}</td>
-        <td>${bookMover.destination}</td>
-        <td>${bookMover.movingDate}</td>
-        <td>${bookMover.numberOfRooms}</td>
-        <td>${bookMover.additionalInfo}</td>
-        <td><button class="deleteBtn">Delete</button></td>
-      </tr>
-    `;
-
     localStorage.setItem("ls_clientName", clientName);
     localStorage.setItem("ls_pNumber", pNumber);
     localStorage.setItem("ls_currentLocation", currentLocation);
@@ -72,19 +52,7 @@ $(document).ready(function () {
 
     window.location.href = "tracking.html";
 
-    //var tbodyEl = $("tbody");
-    //tbodyEl.innerHTML += `
-    //  <tr> 
-    //    <td>${bookMover.clientName}</td>
-    //    <td>${bookMover.pNumber}</td>
-    //    <td>${bookMover.currentLocation}</td>
-    //    <td>${bookMover.destination}</td>
-    //    <td>${bookMover.movingDate}</td>
-    //    <td>${bookMover.numberOfRooms}</td>
-    //    <td>${bookMover.additionalInfo}</td>
-    //  </tr>
-    //`;
-
+    $("#contactForm").trigger("reset");
 
   });
 

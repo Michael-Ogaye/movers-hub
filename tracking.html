@@ -57,32 +57,75 @@
   <section class="hero">
     <div class="container-fluid">
       <div class="hero-content">
-        <h2>Track Your <span>Bookings</span></h2>
+        <h2>Track Your Relocation<span> <br> Activities</span></h2>
       </div>
     </div>
   </section>
-  <section class="table p-5">
-    <div class="container">
-      <table class="table" id="myTable">
-        <thead class="table-light">
-          <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Phone Number</th>
-            <th scope="col">Moving From</th>
-            <th scope="col">Moving To</th>
-            <th scope="col">Moving Date</th>
-            <th scope="col">House Size</th>
-            <th scope="col">Message</th>
-          </tr>
-        </thead>
-        <tbody id="tb">
-          
 
-        </tbody>
-      </table>
+  <section class="mytable p-5">
+    <div class="container mycont">
+      <div class="row d-flex g-3">
+        <div class="col col-lg-8 col-md-12 leftcol">
+          <table class="table" id="myTable">
+            <div class="mytitle p-3 text-center">
+              <h5>Client's Details</h5>
+            </div>
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Phone Number</th>
+                <th scope="col">Moving From</th>
+                <th scope="col">Moving To</th>
+                <th scope="col">Moving Date</th>
+                <th scope="col">House Size</th>
+                <th scope="col">Message</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="client-name"></td>
+                <td id="pNo"></td>
+                <td id="mfrom"></td>
+                <td id="mto"></td>
+                <td id="mdate"></td>
+                <td id="hsize"></td>
+                <td id="msg"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col col-lg-3 col-md-12 rightcol">
+          <table class="table table-light" id="myTable">
+            <div class="mytitle p-3 text-center">
+              <h5>Mover's Details</h5>
+            </div>
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Contact</th>
+                <th scope="col">Charges</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
 
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </section>
+
+  <script>
+    document.getElementById("client-name").innerHTML = localStorage.getItem("ls_clientName");
+    document.getElementById("pNo").innerHTML = localStorage.getItem("ls_pNumber");
+    document.getElementById("mfrom").innerHTML = localStorage.getItem("ls_currentLocation");
+    document.getElementById("mto").innerHTML = localStorage.getItem("ls_destination");
+    document.getElementById("mdate").innerHTML = localStorage.getItem("ls_movingDate");
+    document.getElementById("hsize").innerHTML = localStorage.getItem("ls_numberOfRooms");
+    document.getElementById("msg").innerHTML = localStorage.getItem("ls_additionalInfo");
+  </script>
 
 </body>
 
