@@ -7,13 +7,8 @@
   margin: 0;
 }
 body {
-  background: rgb(250, 117, 31);
-  background: linear-gradient(
-    90deg,
-    rgba(250, 117, 31, 1) 10%,
-    rgba(6, 24, 60, 1) 42%
-  );
-  padding: 2rem;
+  background-color: #06183c;
+
   overflow: hidden;
 }
 #uv {
