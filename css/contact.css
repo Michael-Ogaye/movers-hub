@@ -6,31 +6,32 @@ body {
     
 }
 
-#head {
-    text-align: center;
-    margin-left: 15%;
-}
-#heading {
-
 
 #uv{
-    width: 8vw;
-    height: 5vw;
-    
-}
+    width: 12vw;
+    height: 7vw;
+    text-align: center;
+    margin-right: 8%;
 
+}
+.navbar-brand {
+    text-align: center;
+}
 
 nav.navbar{
     background-color: #06183c;
-    
-    
+     
 }
-.heading {
-
+#heading {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 2%;
 }
-.heading h3 {
+.address {
+    padding-top: 10%;
+    padding-bottom: 0%;
+    text-align: center;
+}
+#heading h3 {
     font-style: italic;
 }
 .navbar {
@@ -73,10 +74,10 @@ p {
     text-align: center;
 }
 #feedback {
-    padding-top: 5%;
+    padding-top: 2%;
 }
 #contact {
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 5%;
     color: #db7e53;
     margin-left: 10%;
