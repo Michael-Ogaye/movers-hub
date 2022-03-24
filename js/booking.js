@@ -54,7 +54,6 @@ $(document).ready(function () {
         <td>${bookMover.movingDate}</td>
         <td>${bookMover.numberOfRooms}</td>
         <td>${bookMover.additionalInfo}</td>
-        <td><button class="deleteBtn">Delete</button></td>
       </tr>
     `;
 
