@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-let booKBtns=$('#profiles button');
-booKBtns.click(function(){
-    window.location.href=''
-})
+// let booKBtns=$('#profiles button');
+// booKBtns.click(function(){
+//     window.location.href=''
+// })
 
 
 //searching for names

@@ -17,6 +17,13 @@ body {
   overflow: hidden;
 }
 
+
+#uv{
+  width: 8vw;
+  height: 5vw;
+  
+}
+
 .box {
   position: relative;
   width: 100%;

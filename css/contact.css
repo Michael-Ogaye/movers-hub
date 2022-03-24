@@ -5,6 +5,19 @@ body {
     font-family:'Poppins', sans-serif;
     
 }
+
+#uv{
+    width: 8vw;
+    height: 5vw;
+    
+}
+
+
+nav.navbar{
+    background-color: #06183c;
+    
+    
+}
 .heading {
     text-align: center;
     padding-top: 10%;
