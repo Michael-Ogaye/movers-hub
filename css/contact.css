@@ -5,7 +5,11 @@ body {
     font-family:'Poppins', sans-serif;
     
 }
-.heading {
+#head {
+    text-align: center;
+    margin-left: 15%;
+}
+#heading {
     text-align: center;
     padding-top: 10%;
 }
